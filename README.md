@@ -42,7 +42,7 @@ SELECT *,
 SELECT DISTINCT 
  gas.name AS "Asset_Group_Name"
 ,gas.ip_address AS "IP_Address"
-,gas.host_name AS "Host_Name"
+,gas.host_name AS "Host_Name"  
 ,dv.vulnerability_id AS "Vulnerability_Id"
 ,dv.title AS "Vulnerability_Title"
 ,proofAsText(dv.description) AS "Vulnerability_Description"
