@@ -1,4 +1,4 @@
-The Query solves the issue of fetching vulnerabilities with all or selected asset_groups.
+  The Query solves the issue of fetching vulnerabilities with all or selected asset_groups.
 
 WITH 
    group_asset_summary as 
